@@ -2,16 +2,16 @@
 
 def tryStep(String message, Closure block, Closure tearDown = null) {
     try {
-        block();
+        block()
     }
     catch (Throwable t) {
         slackSend message: "${env.JOB_NAME}: ${message} failure ${env.BUILD_URL}", channel: '#ci-channel', color: 'danger'
 
-        throw t;
+        throw t
     }
     finally {
         if (tearDown) {
-            tearDown();
+            tearDown()
         }
     }
 }
@@ -38,7 +38,35 @@ node {
     }
 }
 
+
 String BRANCH = "${env.BRANCH_NAME}"
+
+if (BRANCH == "develop") {
+
+    node {
+        stage('Push acceptance image') {
+            tryStep "image tagging", {
+                docker.withRegistry("${DOCKER_REGISTRY_HOST}",'docker_registry_auth') {
+                    def image = docker.image("datapunt/catalog:${env.BUILD_NUMBER}")
+                    image.pull()
+                    image.push("test")
+                }
+            }
+        }
+    }
+
+    node {
+        stage("Deploy to TEST") {
+            tryStep "deployment", {
+                build job: 'Subtask_Openstack_Playbook',
+                parameters: [
+                    [$class: 'StringParameterValue', name: 'INVENTORY', value: 'test'],
+                    [$class: 'StringParameterValue', name: 'PLAYBOOK', value: 'deploy-catalog.yml'],
+                ]
+            }
+        }
+    }
+}
 
 if (BRANCH == "master") {
 
