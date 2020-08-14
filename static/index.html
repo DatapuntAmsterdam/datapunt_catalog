@@ -107,26 +107,6 @@
             width: 11%;
         }
     </style>
-    <!-- Matomo -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u='https://analytics.data.amsterdam.nl/';
-        _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '12']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <!-- End Matomo Code -->
-    <noscript>
-        <!-- Matomo Image Tracker-->
-        <img src="https://analytics.data.amsterdam.nl/matomo.php?idsite=12&rec=1" style="border:0" alt="" />
-        <!-- End Matomo -->
-    </noscript>
 </head>
 <body>
     <div class="header">
@@ -313,9 +293,9 @@
 
           <tr>
             <td>Parkeervakken API Amsterdam</td>
-            <td><a href="/parkeervakken">Online API</a></td>
+            <td><a href="/v1/parkeervakken/parkeervakken/">Online API</a></td>
             <td></td>
-            <td>Live (beta) </td>
+            <td>Live</td>
             <td><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License"
                                                                                           src="https://i.creativecommons.org/l/by/4.0/88x31.png" width="88" height="31"/></a></td>
           </tr>
@@ -324,6 +304,15 @@
             <td>Predictive Parking Amsterdam</td>
             <td><a href="/predictiveparking">Online API</a></td>
             <td><a href="/api/swagger/?url=/predictiveparking/docs/%3Fformat%3Dopenapi">OpenAPI</a></td>
+            <td>Live</td>
+            <td><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License"
+                                                                                          src="https://i.creativecommons.org/l/by/4.0/88x31.png" width="88" height="31"/></a></td>
+          </tr>
+
+           <tr>
+            <td>Rioolnetwerk</td>
+            <td><a href="/v1/rioolnetwerk/rioolknopen/">Online API</a></td>
+            <td><a href="/api/swagger/?url=/v1/">OpenAPI</a></td>
             <td>Live</td>
             <td><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License"
                                                                                           src="https://i.creativecommons.org/l/by/4.0/88x31.png" width="88" height="31"/></a></td>
@@ -473,7 +462,7 @@
                 <td><a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/"><img
                     src="https://i.creativecommons.org/p/zero/1.0/88x31.png" width="88" height="31" alt="Creative Commons License"/></a></td>
             </tr>
-            
+
             <!-- 2020.05.06 WMS en WFS are not applicable anymore
             <tr>
                 <td>Energie Gas/Elektra</td>
@@ -610,6 +599,15 @@
                 <td>Reclame</td>
                 <td><a href="https://map.data.amsterdam.nl/maps/reclame?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms">WMS</a></td>
                 <td><a href="https://map.data.amsterdam.nl/maps/reclame?REQUEST=GetCapabilities&SERVICE=wfs">WFS</a></td>
+                <td>Live</td>
+                <td><a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/"><img
+                    src="https://i.creativecommons.org/p/zero/1.0/88x31.png" width="88" height="31" alt="Creative Commons License"/></a></td>
+            </tr>
+
+            <tr>
+                <td>Rioolnetwerk</td>
+                <td><a href="https://map.data.amsterdam.nl/maps/rioolnetwerk?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms">WMS</a></td>
+                <td><a href="https://api.data.amsterdam.nl/v1/wfs/rioolnetwerk/?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetCapabilities">WFS</a></td>
                 <td>Live</td>
                 <td><a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/"><img
                     src="https://i.creativecommons.org/p/zero/1.0/88x31.png" width="88" height="31" alt="Creative Commons License"/></a></td>
@@ -768,5 +766,25 @@
             </tr>
         </tbody>
     </table>
+     <!-- Matomo -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u='https://analytics.data.amsterdam.nl/';
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '12']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+    <noscript>
+        <!-- Matomo Image Tracker-->
+        <img src="https://analytics.data.amsterdam.nl/matomo.php?idsite=12&rec=1" style="border:0" alt="" />
+        <!-- End Matomo -->
+    </noscript>
 </body>
 </html>
