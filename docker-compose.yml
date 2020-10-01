@@ -6,13 +6,3 @@ services:
       - "8080:80"
     environment:
       BASE_URL: "https://acc.api.data.amsterdam.nl/"
-    #volumes:
-      #- "./src:/usr/share/nginx/html/"
-
-  test:
-    build:
-      context: .
-      target: build-deps
-    environment:
-      - NODE_ENV=test
-    command: /deploy/test.sh
