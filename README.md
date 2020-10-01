@@ -10,11 +10,6 @@ The project consist of static assets (homepage, images) and dynamically build we
 The folder `/static` is copied as is to be served by the web server.
 The `/src` folder is build and the compiled output is copied to the web server.
 
-## Webconnector
-
-For information on how to run the Web Data Connectors see:
-`src/webconnector/README.md`
-
 ## Testing
 
 Run test by executing:

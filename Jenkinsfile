@@ -22,12 +22,6 @@ node {
         checkout scm
     }
 
-    stage("Test") {
-        tryStep "test", {
-            sh "deploy/jenkins-test.sh ."
-        }
-    }
-
     stage("Build image") {
         tryStep "build", {
             docker.withRegistry("${DOCKER_REGISTRY_HOST}",'docker_registry_auth') {
