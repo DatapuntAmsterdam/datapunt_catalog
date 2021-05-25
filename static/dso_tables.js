@@ -37,7 +37,7 @@ function tableFromJSON(json) {
         // Documentation column
         let cell3_Docs = row.insertCell(2);
         cell3_Docs.innerHTML = '<a href="' + dataset.specification_url + '">Swagger</a>';
-        cell3_Docs.innerHTML += ' of <a href="' + dataset.documentation_url + '.html">ReadTheDocs</a>';
+        cell3_Docs.innerHTML += ' of <a href="' + dataset.documentation_url + '">ReadTheDocs</a>';
 
         // Status column
         let cell4_Status = row.insertCell(3);
