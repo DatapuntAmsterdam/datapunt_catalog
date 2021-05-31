@@ -2,7 +2,7 @@
  * Fill the DSO api table from "https://api.data.amsterdam.nl/v1/"
  */
 
- const domain = window.location.host;
+ const domain = window.location.origin;
  const dsoPath = "/v1/";
  const tableId = "dso-api-table";
  const tableStatusId = "dso-table-status";
