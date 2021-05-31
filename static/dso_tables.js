@@ -2,7 +2,7 @@
  * Fill the DSO api table from "https://api.data.amsterdam.nl/v1/"
  */
 
- const domain = "https://api.data.amsterdam.nl";
+ const domain = window.location.host;
  const dsoPath = "/v1/";
  const tableId = "dso-api-table";
  const tableStatusId = "dso-table-status";
@@ -19,7 +19,7 @@
  
              // Title column
              let cell1_Naam = row.insertCell(0);
-             cell1_Naam.innerHTML = dataset.title || name;
+             cell1_Naam.innerHTML = dataset.service_name || name;
              if(dataset.description) {
                  cell1_Naam.title = dataset.description;
                  cell1_Naam.innerHTML += "<div class='info-icon' title='" + dataset.description + "'>?</div>";
@@ -30,15 +30,16 @@
  
              // Link column
              let cell2_link = row.insertCell(1);
-             cell2_link.innerHTML = '<a href="' + dataset.api_url + '">Rest API</a> ';
+             let environment = dataset.environments[0];
+             cell2_link.innerHTML = '<a href="' + environment.api_url + '">Rest API</a> ';
              dataset.related_apis.forEach((relatedApi) => {
                  cell2_link.innerHTML += '<a href="' + relatedApi.url + '">' + relatedApi.type + '</a> ';
              })
  
              // Documentation column
              let cell3_Docs = row.insertCell(2);
-             cell3_Docs.innerHTML = '<a href="' + dataset.specification_url + '">Swagger</a>';
-             cell3_Docs.innerHTML += ' of <a href="' + dataset.documentation_url + '">ReadTheDocs</a>';
+             cell3_Docs.innerHTML = '<a href="' + environment.specification_url + '">Swagger</a>';
+             cell3_Docs.innerHTML += ' of <a href="' + environment.documentation_url + '">ReadTheDocs</a>';
  
              // Status column
              let cell4_Status = row.insertCell(3);
