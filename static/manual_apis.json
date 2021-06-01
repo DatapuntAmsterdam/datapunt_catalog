@@ -1,0 +1,449 @@
+{
+    "tables": {
+        "rest_apis": [
+            {
+                "naam": "BAG Search",
+                "api_urls": {
+                    "Rest API": "/atlas/search"
+                },
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/bag/docs/api-docs/search%3Fformat%3Dopenapi"},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Basisregistratie Kadaster (BRK)",
+                "api_urls": {
+                    "Rest API": "/brk"
+                },
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/bag/docs/api-docs/brk%3Fformat%3Dopenapi"},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Alleen bereikbaar binnen de gemeente",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Datasetcatalogus (dcatd)",
+                "api_urls": {},
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/dcatd/openapi"},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Geosearch",
+                "api_urls": {},
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/geosearch/docs/geosearch.yml"},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Handelsregister",
+                "api_urls": {
+                    "Rest API": "/handelsregister"
+                },
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/handelsregister/docs/api-docs/%3Fformat%3Dopenapi"},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Alleen bereikbaar binnen de gemeente",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "IIIF bouwdossiers metadata",
+                "api_urls": {
+                    "Rest API": "/iiif-metadata/bouwdossier"
+                },
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/iiif-metadata/docs/swagger.yaml"},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Alleen bereikbaar binnen de gemeente",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Meldingen / Signalen",
+                "api_urls": {
+                    "Rest API": "/signals"
+                },
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/signals/swagger/openapi.yaml"},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Monumenten",
+                "api_urls": {
+                    "Rest API": "/monumenten"
+                },
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/monumenten/docs/api-docs/monumenten/%3Fformat%3Dopenapi"},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "NAP Peilmerken",
+                "api_urls": {
+                    "Rest API": "/nap"
+                },
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/meetbouten/docs/api-docs/nap%3Fformat%3Dopenapi"},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Panoramabeelden Amsterdam",
+                "api_urls": {
+                    "Rest API": "/panorama"
+                },
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/panorama/docs/%3Fformat%3Dopenapi"},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CCby4.0"
+            },
+            {
+                "naam": "Tellus",
+                "api_urls": {
+                    "Rest API": "/tellus"
+                },
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/tellus/swagger.yaml"},
+                "documentatie_urls": {"redoc":"/tellus/redoc/"},
+                "beschikbaarheid": "Gedeeltelijk publiek",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Typeahead",
+                "api_urls": {},
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/typeahead/openapi"},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Typeahead Bag/Brk",
+                "api_urls": {
+                    "Rest API": "/atlas/typeahead"
+                },
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/bag/docs/api-docs/typeahead%3Fformat%3Dopenapi"},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "WBAKaart (blackspots)",
+                "api_urls": {
+                    "Rest API": "/blackspots"
+                },
+                "specificatie_urls":{"Swagger":"/api/swagger/?url=/blackspots/swagger.yaml"},
+                "documentatie_urls": {"redoc":"/blackspots/redoc/"},
+                "beschikbaarheid": "Alleen bereikbaar binnen de gemeente",
+                "beschrijving": null,
+                "licentie": "CC0"
+            }
+        ],
+        "geo_services": [
+            {
+                "naam": "Bed & Breakfast",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/bb_quotum?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/bb_quotum?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "BRK",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/brk?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/brk?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Bodem",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/bodem?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/bodem?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Gebieden",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/gebieden?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/gebieden?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Handelsregister",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/handelsregister?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/handelsregister?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Alleen bereikbaar binnen de gemeente",
+                "beschrijving": null,
+                "licentie": "CCBy4.0"
+            },
+            {
+                "naam": "Luchtfoto's",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/lufo?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "-"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CCBy4.0"
+            },
+            {
+                "naam": "Monumenten",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/monumenten?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/monumenten?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "NAP",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/nap?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/nap?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Panoramabeelden",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/panorama?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/panorama?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Planologische Geluidszones",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/planologischegeluidszones?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/planologischegeluidszones?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Planologische Zones Schiphol",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/planologischezonesschiphol?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/planologischezonesschiphol?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Reclame",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/reclame?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/reclame?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Tellus",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/tellussen?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/tellussen?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Topografie (BGT, KBK10, KBK50, Kaartteksten)",
+                "api_urls": {
+                    "Topgrafie": "https://map.data.amsterdam.nl/maps/topografie?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "BGT WMS": "https://map.data.amsterdam.nl/maps/topografie?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "KBK10 WMS": "https://map.data.amsterdam.nl/maps/bgt?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "KBK50 WMS": "https://map.data.amsterdam.nl/maps/kbk50?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "Kaartteksten WMS": "https://map.data.amsterdam.nl/maps/kaartteksten?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/bgtobjecten?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Tram & Metro Lijnen",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/trm?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/trm?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Vuurwerkvrije zones",
+                "api_urls": {
+                    "WMS": "https://map.data.amsterdam.nl/maps/vuurwerk?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WFS": "https://map.data.amsterdam.nl/maps/vuurwerk?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschikbaarheid": "Openbaar",
+                "beschrijving": null,
+                "licentie": "CC0"
+            }
+        ],
+        "tile_services": [
+            {
+                "naam": "Topografie, standaard visualisatie (RD)",
+                "api_urls": {
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "Tiles": "https://t1.data.amsterdam.nl/topo_rd/15/15137/17281.png"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschrijving": "Raster,  coordinaten stelsel: Rijksdriehoekstelsel (5-16)",
+                "beschikbaarheid": "Openbaar",
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Topografie, light visualisatie (RD)",
+                "api_urls": {
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "Tiles": "https://t1.data.amsterdam.nl/topo_rd_light/15/15137/17281.png"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschrijving": "Raster,  coordinaten stelsel: Rijksdriehoekstelsel (5-16)",
+                "beschikbaarheid": "Openbaar",
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Topografie, zwart-wit visualisatie(RD)",
+                "api_urls": {
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "Tiles": "https://t1.data.amsterdam.nl/topo_rd_zw/15/15137/17281.png"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschrijving": "Raster,  coordinaten stelsel: Rijksdriehoekstelsel (5-16)",
+                "beschikbaarheid": "Openbaar",
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Topografie, standaard visualisatie (WM)",
+                "api_urls": {
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "Tiles": "https://t1.data.amsterdam.nl/topo_wm/18/134599/86112.png"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschrijving": "Raster,  coordinaten stelsel: Webmercator/Google (11-21)",
+                "beschikbaarheid": "Openbaar",
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Topografie, light visualisatie (WM)",
+                "api_urls": {
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "Tiles": "https://t1.data.amsterdam.nl/topo_wm_light/18/134599/86112.png"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschrijving": "Raster,  coordinaten stelsel: Webmercator/Google (11-21)",
+                "beschikbaarheid": "Openbaar",
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Topografie, zwart-wit visualisatie(WM)",
+                "api_urls": {
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "Tiles": "https://t1.data.amsterdam.nl/topo_wm_zw/18/134599/86112.png"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschrijving": "Raster,  coordinaten stelsel: Webmercator/Google (11-21)",
+                "beschikbaarheid": "Openbaar",
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Topografie, vectortiles",
+                "api_urls": {
+                    "Tiles": "https://t1.data.amsterdam.nl/wm/12/2103/1345.pbf"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschrijving": "Vector,  coordinaten stelsel: Webmercator/Google (8-20)",
+                "beschikbaarheid": "Openbaar",
+                "licentie": "CC0"
+            },
+            {
+                "naam": "Luchtfoto (RD)",
+                "api_urls": {
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "Tiles": "https://t1.data.amsterdam.nl/lufo2017_RD/12/1891/2161.jpeg"
+                },
+                "specificatie_urls": {},
+                "documentatie_urls": {},
+                "beschrijving": "Raster,  coordinaten stelsel: Rijksdriehoekstelsel (5-16)",
+                "beschikbaarheid": "Openbaar",
+                "licentie": "CC0"
+            }
+        ]
+    }
+}

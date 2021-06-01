@@ -90,14 +90,18 @@ tbody img {
     width: 10%;
 }
 .column3 {
-    width: 19%;
+    width: 10%;
 }
 .column4 {
-    width: 30%;
+    width: 10%;
 }
 .column5 {
-    width: 11%;
+    width: 30%;
 }
+.column6 {
+    width: 10%;
+}
+
 .info-icon, .lock-icon {
     border-radius: 50%;
     border-color: rgb(204, 204, 204);
