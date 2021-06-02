@@ -124,7 +124,7 @@
  
  window.onload = () => {
     let promises = [
-        JSONRequest("/manual_apis.json").catch(e => {console.log("Kan manual datasets niet ophalen.")}),
+        JSONRequest("/api/manual_apis.json").catch(e => {console.log("Kan manual datasets niet ophalen.")}),
         JSONRequest(domain + dsoPath + "?_format=json").catch(e => {console.log("Kan datasets niet ophalen.")}),
         JSONRequest(domain + dsoPath + "wfs/").catch(e => {console.log("Kan mvt datasets niet ophalen.")}),
         JSONRequest(domain + dsoPath + "mvt/").catch(e => {console.log("Kan wfs datasets niet ophalen.")})
