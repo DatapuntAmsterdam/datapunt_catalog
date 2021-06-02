@@ -2,11 +2,8 @@
  * Fill the api table from "https://api.data.amsterdam.nl/v1/"
  */
 
-//  const domain = window.location.origin;
- const domain = "http://localhost:8000"
+ const domain = window.location.origin;
  const dsoPath = "/v1/";
- const tableId = "dso-api-table";
- const tableStatusId = "dso-table-status";
  let tables = {
     "rest_apis": [],
     "geo_services": [],
@@ -47,7 +44,7 @@
 
  function parseDSOjson(json, table, api_name="Rest API") {
     for ( let name of Object.keys(json.datasets)) {
-        dataset = json.datasets[name];
+        let dataset = json.datasets[name];
         if(dataset.status == "beschikbaar"){
             row = {
                 "naam": dataset.service_name,
@@ -132,6 +129,7 @@
         JSONRequest(domain + dsoPath + "wfs/").catch(e => {console.log("Kan mvt datasets niet ophalen.")}),
         JSONRequest(domain + dsoPath + "mvt/").catch(e => {console.log("Kan wfs datasets niet ophalen.")})
     ]
+    clearSearch();
     Promise.all(promises).then((results) => {
         if(results[0]) {
             parseManualApisJson(results[0]);
@@ -152,3 +150,37 @@
         }
     })
  }
+
+
+function search(inputId) {
+    let query = document.getElementById(inputId).value.toLowerCase();
+    let searchContainers = document.getElementsByClassName("search-container");
+    if(!query.length) {
+        return clearSearch();
+    }
+    for(let table of Object.keys(tables)) {
+        tables[table].forEach((row, i) => {
+            if(row.naam.toLowerCase().includes(query)) {
+                document.getElementById(table + "-table-row-" + i).classList.remove("filter-hidden");
+            } else {
+                document.getElementById(table + "-table-row-" + i).classList.add("filter-hidden");
+            }
+        });
+    }
+    for (let i = 0; i < searchContainers.length; i++) {
+        searchContainers[i].classList.add("active");
+    } 
+}
+
+
+function clearSearch() {
+    let filteredItems = document.getElementsByClassName("filter-hidden");
+    while (filteredItems.length) {
+        filteredItems[0].classList.remove("filter-hidden");
+    }
+    let searchContainers = document.getElementsByClassName("search-container");
+    for (let i = 0; i < searchContainers.length; i++) {
+        searchContainers[i].classList.remove("active");
+        searchContainers[i].children.namedItem("query").value = "";
+    } 
+}

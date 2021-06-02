@@ -14,6 +14,10 @@
             <img class="header_logo" src="gemeente_Amsterdam_logo.svg" width="64" height="30" alt="Gemeente Amsterdam" name="Gemeente Amsterdam">
             <span class="header_title">Data en informatie</span>
         </a>
+        <div class="search-container">
+            <input  type="text" placeholder="&#128269; zoeken..." id="search-input-top"  class="search-input" name="query" onkeyup="search('search-input-top')">
+            <div class="search-cross" onclick="clearSearch()">&#10006;</div>
+        </div>
     </div>
 
     <h1 id="restful-api">RESTful API</h1>
