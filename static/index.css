@@ -123,3 +123,30 @@ tbody img {
 td:hover .info-icon, .lock-icon:hover {
     border-color: rgb(155, 155, 155);
 }
+
+.filter-hidden {
+    display: none;
+}
+
+.search-container {
+    float: inline-end;
+    margin: 8px;
+    width: 222px;
+}
+
+.search-container.active > .search-cross {
+    display: inline-block;
+}
+
+.search-cross {
+    display: none;
+    cursor: pointer;
+    padding: 3px;
+    font-weight: bold;
+    margin-left: -31px;
+    color: #404040;
+}
+
+.search-input {
+    display: inline-block;
+}
