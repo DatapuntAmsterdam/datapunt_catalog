@@ -154,8 +154,8 @@
             {
                 "naam": "Bed & Breakfast",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/bb_quotum?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/bb_quotum?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/bb_quotum?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/bb_quotum?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -166,8 +166,8 @@
             {
                 "naam": "BRK",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/brk?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/brk?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/brk?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/brk?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -178,8 +178,8 @@
             {
                 "naam": "Bodem",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/bodem?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/bodem?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/bodem?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/bodem?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -190,8 +190,8 @@
             {
                 "naam": "Gebieden",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/gebieden?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/gebieden?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/gebieden?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/gebieden?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -202,8 +202,8 @@
             {
                 "naam": "Handelsregister",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/handelsregister?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/handelsregister?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/handelsregister?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/handelsregister?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -214,7 +214,7 @@
             {
                 "naam": "Luchtfoto's",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/lufo?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
+                    "WMS": "https://map.data.amsterdam.nl/maps/lufo?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
                     "WFS": "-"
                 },
                 "specificatie_urls": {},
@@ -226,8 +226,8 @@
             {
                 "naam": "Monumenten",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/monumenten?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/monumenten?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/monumenten?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/monumenten?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -238,8 +238,8 @@
             {
                 "naam": "NAP",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/nap?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/nap?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/nap?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/nap?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -250,8 +250,8 @@
             {
                 "naam": "Panoramabeelden",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/panorama?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/panorama?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/panorama?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/panorama?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -262,8 +262,8 @@
             {
                 "naam": "Planologische Geluidszones",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/planologischegeluidszones?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/planologischegeluidszones?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/planologischegeluidszones?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/planologischegeluidszones?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -274,8 +274,8 @@
             {
                 "naam": "Planologische Zones Schiphol",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/planologischezonesschiphol?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/planologischezonesschiphol?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/planologischezonesschiphol?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/planologischezonesschiphol?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -286,8 +286,8 @@
             {
                 "naam": "Reclame",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/reclame?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/reclame?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/reclame?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/reclame?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -298,8 +298,8 @@
             {
                 "naam": "Tellus",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/tellussen?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/tellussen?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/tellussen?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/tellussen?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -311,11 +311,11 @@
                 "naam": "Topografie (BGT, KBK10, KBK50, Kaartteksten)",
                 "api_urls": {
                     "Topgrafie": "https://map.data.amsterdam.nl/maps/topografie?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
-                    "BGT WMS": "https://map.data.amsterdam.nl/maps/topografie?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "KBK10 WMS": "https://map.data.amsterdam.nl/maps/bgt?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "KBK50 WMS": "https://map.data.amsterdam.nl/maps/kbk50?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "Kaartteksten WMS": "https://map.data.amsterdam.nl/maps/kaartteksten?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/bgtobjecten?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "BGT WMS": "https://map.data.amsterdam.nl/maps/topografie?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "KBK10 WMS": "https://map.data.amsterdam.nl/maps/bgt?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "KBK50 WMS": "https://map.data.amsterdam.nl/maps/kbk50?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "Kaartteksten WMS": "https://map.data.amsterdam.nl/maps/kaartteksten?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/bgtobjecten?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -326,8 +326,8 @@
             {
                 "naam": "Tram & Metro Lijnen",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/trm?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/trm?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/trm?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/trm?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -338,8 +338,8 @@
             {
                 "naam": "Vuurwerkvrije zones",
                 "api_urls": {
-                    "WMS": "https://map.data.amsterdam.nl/maps/vuurwerk?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms\\",
-                    "WFS": "https://map.data.amsterdam.nl/maps/vuurwerk?REQUEST=GetCapabilities&SERVICE=wfs\\"
+                    "WMS": "https://map.data.amsterdam.nl/maps/vuurwerk?REQUEST=GetCapabilities&VERSION=1.1.0&SERVICE=wms",
+                    "WFS": "https://map.data.amsterdam.nl/maps/vuurwerk?REQUEST=GetCapabilities&SERVICE=wfs"
                 },
                 "specificatie_urls": {},
                 "documentatie_urls": {},
@@ -352,7 +352,7 @@
             {
                 "naam": "Topografie, standaard visualisatie (RD)",
                 "api_urls": {
-                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS",
                     "Tiles": "https://t1.data.amsterdam.nl/topo_rd/15/15137/17281.png"
                 },
                 "specificatie_urls": {},
@@ -364,7 +364,7 @@
             {
                 "naam": "Topografie, light visualisatie (RD)",
                 "api_urls": {
-                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS",
                     "Tiles": "https://t1.data.amsterdam.nl/topo_rd_light/15/15137/17281.png"
                 },
                 "specificatie_urls": {},
@@ -376,7 +376,7 @@
             {
                 "naam": "Topografie, zwart-wit visualisatie(RD)",
                 "api_urls": {
-                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS",
                     "Tiles": "https://t1.data.amsterdam.nl/topo_rd_zw/15/15137/17281.png"
                 },
                 "specificatie_urls": {},
@@ -388,7 +388,7 @@
             {
                 "naam": "Topografie, standaard visualisatie (WM)",
                 "api_urls": {
-                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS",
                     "Tiles": "https://t1.data.amsterdam.nl/topo_wm/18/134599/86112.png"
                 },
                 "specificatie_urls": {},
@@ -400,7 +400,7 @@
             {
                 "naam": "Topografie, light visualisatie (WM)",
                 "api_urls": {
-                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS",
                     "Tiles": "https://t1.data.amsterdam.nl/topo_wm_light/18/134599/86112.png"
                 },
                 "specificatie_urls": {},
@@ -412,7 +412,7 @@
             {
                 "naam": "Topografie, zwart-wit visualisatie(WM)",
                 "api_urls": {
-                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS",
                     "Tiles": "https://t1.data.amsterdam.nl/topo_wm_zw/18/134599/86112.png"
                 },
                 "specificatie_urls": {},
@@ -435,7 +435,7 @@
             {
                 "naam": "Luchtfoto (RD)",
                 "api_urls": {
-                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS\\",
+                    "WMTS": "https://map.data.amsterdam.nl/service?REQUEST=GetCapabilities&SERVICE=WMTS",
                     "Tiles": "https://t1.data.amsterdam.nl/lufo2017_RD/12/1891/2161.jpeg"
                 },
                 "specificatie_urls": {},
