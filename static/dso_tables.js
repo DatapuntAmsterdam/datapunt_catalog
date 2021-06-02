@@ -131,18 +131,17 @@
     ]
     clearSearch();
     Promise.all(promises).then((results) => {
-        if(results[0]) {
-            parseManualApisJson(results[0]);
-        }
-        if(results[1]) {
-            parseDSOjson(results[1], tables.rest_apis);
-        }
-        if(results[2]) {
-            parseDSOjson(results[2], tables.geo_services, "WFS");
-        }
-        if(results[3]) {
-            parseDSOjson(results[3], tables.tile_services, "MVT");
-        }
+        let resultHandlers = [
+            parseManualApisJson, 
+            (res) => parseDSOjson(res, tables.rest_apis),
+            (res) => parseDSOjson(res, tables.geo_services, "WFS"),
+            (res) => parseDSOjson(res, tables.tile_services, "MVT")
+        ]
+        resultHandlers.forEach((handler, i) => {
+            if(results[i]) {
+                handler(results[i]);
+            }
+        })
         for(let table of Object.keys(tables)) {
             if(tables.hasOwnProperty(table)){
                 makeTable(table+"-table", tables[table]);
