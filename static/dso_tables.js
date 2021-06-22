@@ -51,7 +51,7 @@
                 "beschrijving":dataset.description,
                 "api_urls": {},
                 "documentatie_urls": {"ReadTheDocs": dataset.environments[0].documentation_url},
-                "specificatie_urls": {"Specificatie": dataset.environments[0].specification_url},
+                "specificatie_urls": {"Swagger": "/api/swagger/?url=" + dataset.environments[0].specification_url},
                 "beschikbaarheid": dataset.terms_of_use.government_only?"Beperkt toegankelijk":"Openbaar",
                 "licentie": "CC0"
             };
