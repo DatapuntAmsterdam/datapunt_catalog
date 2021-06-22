@@ -129,7 +129,7 @@ td:hover .info-icon, .lock-icon:hover {
 }
 
 .search-container {
-    float: inline-end;
+    float: right;
     margin: 8px;
     width: 222px;
 }
